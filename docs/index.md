@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+## Description
+The **Exchange Online Contact Synchronizer** (EOCS) is a service for synchronizing contacts from a web API into your own Microsoft Outlook contacts.
+The following features are planned:
 
-You can use the [editor on GitHub](https://github.com/JOSINZ/Exchange-Online-Contact-Synchronizer/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+- Authentication with the Microsoft Identity Platform 
+- Continuous synchronization of contacts from one data source (Web API) 
+- Provision of multiple data sources
+- Personal setup of the synchronization by the user
+- Web UI for configuring and setting up personal synchronization
+- Admin panel for configuration of the service
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JOSINZ/Exchange-Online-Contact-Synchronizer/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+> One possible application scenario is the synchronization of customers or vendors from Dynmaics 365 Business Central into your own Outlook contacts. For example, the customer name can be displayed when a Microsoft Teams call is received from the customer.
