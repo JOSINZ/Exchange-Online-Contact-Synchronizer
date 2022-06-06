@@ -1,0 +1,26 @@
+﻿@page
+@using EOCS_User_Interface.Controller
+@model SyncControllerModel
+@{
+    ViewData["Title"] = "Contact synchronization";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Contact synchronization</h1>
+    <p>Control of synchronization.</p>
+    <form method="post" action="">
+        <label asp-for="SyncSource"></label>
+        <fieldset>
+            @foreach (var source in Model.SyncSource)
+            {
+                <div title="Sync source uri: @source.SyncSource.Uri">
+                    <label>@source.SyncSource.DisplayName</label>
+                    <input type="checkbox" checked=@source.Assigned value=@source.SyncSource.Id/>
+                </div>
+            }
+            <div>
+                <input type="submit"/>
+            </div>
+        </fieldset>
+    </form>
+</div>

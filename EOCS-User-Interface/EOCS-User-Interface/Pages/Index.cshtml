@@ -1,10 +1,18 @@
 ﻿@page
+@using EOCS_User_Interface.Controller
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "User Portal";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">User Portal</h1>
+    <div>
+        <label>Name:</label>
+        <p>@User.Claims.First(claim => claim.Type == "name").Value</p>
+    </div>
+    <div>
+        <label>Control contact synchronization:</label>
+        <button onclick="window.location.href = '/SyncController';">Control</button>
+    </div>
 </div>
