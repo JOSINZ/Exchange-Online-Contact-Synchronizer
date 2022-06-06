@@ -10,6 +10,10 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    
+    defaults:
+      run:
+        working-directory: EOCS-User-Interface/EOCS-User-Interface
 
     steps:
     - uses: actions/checkout@v3
@@ -19,10 +23,7 @@ jobs:
         dotnet-version: 6.0.x
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: EOCS-User-Interface/EOCS-User-Interface/EOCS-User-Interface.csproj
     - name: Build
       run: dotnet build --no-restore
-      working-directory: EOCS-User-Interface/EOCS-User-Interface/EOCS-User-Interface.csproj
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      working-directory: EOCS-User-Interface/EOCS-User-Interface/EOCS-User-Interface.csproj
