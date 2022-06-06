@@ -6,7 +6,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-EOCS_User_Interface-CDA302FF-B9B4-414B-B3CC-1C7E686C0B61</UserSecretsId>
     <RootNamespace>EOCS_User_Interface</RootNamespace>
-    <Version>0.1.0-alpha1</Version>
   </PropertyGroup>
 
   <ItemGroup>
