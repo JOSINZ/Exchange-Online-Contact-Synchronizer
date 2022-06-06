@@ -14,7 +14,6 @@ namespace EOCS_User_Interface.Pages
 
         public void OnGet()
         {
-
         }
     }
 }
