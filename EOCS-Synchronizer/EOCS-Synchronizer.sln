@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EOCS-Synchronizer", "EOCS-Synchronizer\EOCS-Synchronizer.csproj", "{4980BA5E-5C53-42D0-BE2D-D84A7BDC311C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-EOCS-Synchronizer", "Test-EOCS-Synchronizer\Test-EOCS-Synchronizer.csproj", "{9FAD2464-B968-4C45-AECD-EB67B033C1B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4980BA5E-5C53-42D0-BE2D-D84A7BDC311C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4980BA5E-5C53-42D0-BE2D-D84A7BDC311C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4980BA5E-5C53-42D0-BE2D-D84A7BDC311C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FAD2464-B968-4C45-AECD-EB67B033C1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FAD2464-B968-4C45-AECD-EB67B033C1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FAD2464-B968-4C45-AECD-EB67B033C1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FAD2464-B968-4C45-AECD-EB67B033C1B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
